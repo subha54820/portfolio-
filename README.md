@@ -1,2 +1,50 @@
-# portfolio-
-it is a dummy project
+# Portfolio Website
+
+A modern portfolio website for Subhalaxmi Pradhan built with React, Vite, and Tailwind CSS.
+
+## Features
+
+- Responsive design
+- Modern UI/UX with Framer Motion animations
+- Sections: Hero, About, Skills, Projects, Education, Contact, Resume Download
+- Social media integration (LinkedIn, GitHub, Gmail)
+- Smooth scrolling navigation
+- Sticky header with design changes on scroll
+
+## Setup
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Add your resume PDF to the `public` folder with the name: `Subhalaxmi Pradhan Resume-1-1-2-2.pdf`
+
+3. Add your AI-generated profile image to the `public` folder with the name: `ai-profile-image.jpg`
+   - The image should be square (recommended: 800x800px or larger)
+   - If the image is not found, it will fall back to the gradient "SP" logo
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+5. Build for production:
+```bash
+npm run build
+```
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+## Image Requirements
+
+- **Profile Image**: Place `ai-profile-image.jpg` in the `public` folder
+  - Format: JPG, PNG, or WebP
+  - Recommended size: 800x800px (square)
+  - The component will automatically fall back to the gradient logo if the image is not found
